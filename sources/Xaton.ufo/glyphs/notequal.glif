@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal" format="2">
+  <advance width="380"/>
+  <unicode hex="2260"/>
+  <outline>
+    <contour>
+      <point x="15" y="161" type="line"/>
+      <point x="365" y="161" type="line"/>
+      <point x="365" y="201" type="line"/>
+      <point x="15" y="201" type="line"/>
+    </contour>
+    <contour>
+      <point x="15" y="299" type="line"/>
+      <point x="365" y="299" type="line"/>
+      <point x="365" y="339" type="line"/>
+      <point x="15" y="339" type="line"/>
+    </contour>
+    <contour>
+      <point x="155.227" y="61.0998" type="line"/>
+      <point x="264.773" y="438.389" type="line"/>
+      <point x="224.773" y="438.389" type="line"/>
+      <point x="115.227" y="61.0998" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>equal+slash%</string>
+  </dict>
+  </lib>
+</glyph>

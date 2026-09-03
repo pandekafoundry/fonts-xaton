@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Germandbls" format="2">
+  <advance width="650"/>
+  <unicode hex="1E9E"/>
+  <outline>
+    <contour>
+      <point x="15" y="565" type="line"/>
+      <point x="15" y="0" type="line"/>
+      <point x="280" y="0" type="line"/>
+      <point x="280" y="660" type="line"/>
+      <point x="370" y="660" type="line"/>
+      <point x="370" y="370" type="line"/>
+      <point x="325" y="370" type="line"/>
+      <point x="325" y="330" type="line"/>
+      <point x="370" y="330" type="line"/>
+      <point x="370" y="40" type="line"/>
+      <point x="306.526" y="40" type="line"/>
+      <point x="306.526" y="0" type="line"/>
+      <point x="500" y="0" type="line"/>
+      <point x="635" y="135" type="line"/>
+      <point x="635" y="235" type="line"/>
+      <point x="520" y="350" type="line"/>
+      <point x="635" y="465" type="line"/>
+      <point x="635" y="565" type="line"/>
+      <point x="500" y="700" type="line"/>
+      <point x="150" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

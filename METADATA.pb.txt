@@ -1,0 +1,15 @@
+name: "Xaton"
+designer: "Virgi Putra Alwi"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2026-08-31"
+fonts {
+  name: "Xaton"
+  style: "normal"
+  weight: 400
+  filename: "Xaton-Regular.ttf"
+  post_script_name: "Xaton-Regular"
+  full_name: "Xaton Regular"
+}
+subsets: "latin"
+subsets: "latin-ext"

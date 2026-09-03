@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash" format="2">
+  <advance width="600"/>
+  <unicode hex="00D8"/>
+  <outline>
+    <contour>
+      <point x="15" y="135" type="line"/>
+      <point x="73.17" y="76.83" type="line"/>
+      <point x="15" y="0" type="line"/>
+      <point x="55" y="0" type="line"/>
+      <point x="95.93" y="54.07" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="585" y="135" type="line"/>
+      <point x="585" y="565" type="line"/>
+      <point x="526.83" y="623.16" type="line"/>
+      <point x="585" y="700" type="line"/>
+      <point x="545" y="700" type="line"/>
+      <point x="504.07" y="645.92" type="line"/>
+      <point x="450" y="700" type="line"/>
+      <point x="150" y="700" type="line"/>
+      <point x="15" y="565" type="line"/>
+    </contour>
+    <contour>
+      <point x="280" y="40" type="line"/>
+      <point x="280" y="297.18" type="line"/>
+      <point x="320" y="350.01" type="line"/>
+      <point x="320" y="40" type="line"/>
+    </contour>
+    <contour>
+      <point x="280" y="350" type="line"/>
+      <point x="280" y="660" type="line"/>
+      <point x="320" y="660" type="line"/>
+      <point x="320" y="402.83" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>O+slash</string>
+  </dict>
+  </lib>
+</glyph>

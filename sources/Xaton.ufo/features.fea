@@ -1,0 +1,251 @@
+#> languagesystem
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn MOL;
+languagesystem latn ROM;
+languagesystem grek dflt;
+#< languagesystem
+feature aalt {
+# Access All Alternates
+
+#> feature
+  feature locl;
+  feature sups;
+  feature salt;
+  feature hist;
+  feature case;
+#< feature
+} aalt;
+feature locl {
+# Localized Forms
+
+#> feature
+  script latn; # Latin
+  language MOL; # Moldavian
+  sub Scedilla by Scommaaccent;
+  sub Tcedilla by Tcommaaccent;
+  sub scedilla by scommaaccent;
+  sub tcedilla by tcommaaccent;
+
+  language ROM; # Romanian
+  sub Scedilla by Scommaaccent;
+  sub Tcedilla by Tcommaaccent;
+  sub scedilla by scommaaccent;
+  sub tcedilla by tcommaaccent;
+#< feature
+} locl;
+feature sups {
+# Superscript
+
+#> feature
+  sub one by onesuperior;
+  sub three by threesuperior;
+  sub two by twosuperior;
+#< feature
+} sups;
+feature frac {
+# Fractions
+
+#> feature
+lookup frac_precomposed {
+
+  sub one slash four by onequarter;
+  sub one slash two by onehalf;
+  sub three slash four by threequarters;
+  sub one fraction four by onequarter;
+  sub one fraction two by onehalf;
+  sub three fraction four by threequarters;
+} frac_precomposed;
+#< feature
+} frac;
+feature ordn {
+# Ordinals
+
+#> feature
+  sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+  sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+#< feature
+} ordn;
+feature salt {
+# Stylistic Alternates
+
+#> feature
+  sub caron from [caron.salt];
+  sub commaaccentcomb from [commaaccentcomb.salt];
+#< feature
+} salt;
+feature liga {
+# Standard Ligatures
+
+#> feature
+  sub f f by f_f;
+  sub f i by fi;
+  sub f l by fl;
+  sub longs t by longs_t;
+  sub f f i by f_f_i;
+  sub f f l by f_f_l;
+#< feature
+} liga;
+feature hist {
+# Historical Forms
+
+#> feature
+  sub s by longs;
+#< feature
+} hist;
+feature case {
+# Case Sensitive Forms
+
+#> feature
+  sub acute by acute.case;
+  sub breve by breve.case;
+  sub caron by caron.case;
+  sub circumflex by circumflex.case;
+  sub dieresis by dieresis.case;
+  sub dotaccent by dotaccent.case;
+  sub grave by grave.case;
+  sub hungarumlaut by hungarumlaut.case;
+  sub macron by macron.case;
+  sub ring by ring.case;
+  sub tilde by tilde.case;
+#< feature
+} case;
+feature kern {
+  @_o = [b c cacute ccaron ccedilla ccircumflex cdotaccent o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p];
+  @_s1 = [peseta s sacute scaron scedilla scircumflex scommaaccent];
+  @_a1 = [a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek estimated h hcircumflex m n nacute napostrophe ncaron ncommaaccent ntilde oe];
+  @_D = [AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Euro O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde eth];
+  @_f1 = [f f_f];
+  @_g1 = [g gbreve gcircumflex gcommaaccent gdotaccent ij y yacute ycircumflex ydieresis ygrave];
+  @_k = [k kcommaaccent kgreenlandic x];
+  @_r = [r racute rcaron rcommaaccent];
+  @_t1 = [t tbar tcaron tcedilla tcommaaccent];
+  @_v = [v w wacute wcircumflex wdieresis wgrave];
+  @_F = [F franc];
+  @_L = [L Lacute Lcaron Lcommaaccent lira];
+  @_M = [G Gbreve Gcircumflex Gcommaaccent Gdotaccent Germandbls M N Nacute Ncaron Ncommaaccent Ntilde germandbls];
+  @_R = [R Racute Rcaron Rcommaaccent];
+  @_T1 = [T Tbar Tcaron Tcedilla Tcommaaccent];
+  @_T = [T Tbar Tcaron Tcedilla Tcommaaccent];
+  @_s = [s sacute scaron scedilla scircumflex scommaaccent];
+  @_c = [c cacute ccaron ccedilla ccircumflex cdotaccent e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde];
+  @_d = [d dcaron];
+  @_g = [g gbreve gcircumflex gcommaaccent gdotaccent];
+  @_a = [a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde dotlessi kgreenlandic m n nacute napostrophe ncaron ncommaaccent ntilde r racute rcaron rcommaaccent x z zacute zcaron zdotaccent];
+  @_A = [A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Germandbls M germandbls];
+  @_y = [y yacute ycircumflex ydieresis ygrave];
+  @_S = [S Sacute Scaron Scedilla Scircumflex Scommaaccent];
+  @_C = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G Gbreve Gcircumflex Gcommaaccent Gdotaccent O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q];
+  @_f = [f f_f f_f_i f_f_l fi fl];
+  @_t = [u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave];
+
+  lookup KERN_LTR  {
+  lookupflag IgnoreMarks;
+    pos T p -150;
+    pos T q -150;
+    pos f q -70;
+    pos q T -150;
+    pos q Tcedilla -150;
+    pos q Tcaron -150;
+    pos q Tbar -150;
+    pos q Tcommaaccent -150;
+    pos P T -70;
+    pos P o -60;
+    pos P s -60;
+    pos P g -60;
+    pos P c -60;
+    pos P d -60;
+    pos P q -60;
+    pos P ccedilla -60;
+    pos P egrave -60;
+    pos P eacute -60;
+    pos P ecircumflex -60;
+    pos P edieresis -60;
+    pos P ograve -60;
+    pos P oacute -60;
+    pos P ocircumflex -60;
+    pos P otilde -60;
+    pos P odieresis -60;
+    pos P oslash -60;
+    pos P oe -60;
+    pos P scaron -60;
+    pos P cacute -60;
+    pos P ccircumflex -60;
+    pos P cdotaccent -60;
+    pos P ccaron -60;
+    pos P dcaron -60;
+    pos P emacron -60;
+    pos P ebreve -60;
+    pos P edotaccent -60;
+    pos P eogonek -60;
+    pos P ecaron -60;
+    pos P gcircumflex -60;
+    pos P gbreve -60;
+    pos P gdotaccent -60;
+    pos P gcommaaccent -60;
+    pos P omacron -60;
+    pos P obreve -60;
+    pos P ohungarumlaut -60;
+    pos P sacute -60;
+    pos P scircumflex -60;
+    pos P scedilla -60;
+    pos P Tcedilla -70;
+    pos P Tcaron -70;
+    pos P Tbar -70;
+    pos P scommaaccent -60;
+    pos P Tcommaaccent -70;
+    pos P e -60;
+    pos Q T -70;
+    pos Q Tcedilla -70;
+    pos Q Tcaron -70;
+    pos Q Tbar -70;
+    pos Q Tcommaaccent -70;
+    pos f_f q -70;
+    pos Tcedilla p -150;
+    pos Tcedilla q -150;
+    pos Tcaron p -150;
+    pos Tcaron q -150;
+    pos Tbar p -150;
+    pos Tbar q -150;
+    pos Tcommaaccent p -150;
+    pos Tcommaaccent q -150;
+  subtable;
+    pos @_o @_T -150;
+    pos @_s1 @_T -150;
+    pos @_a1 @_T -150;
+    pos @_D @_T -70;
+    pos @_f1 @_s -70;
+    pos @_f1 @_c -70;
+    pos @_f1 @_d -70;
+    pos @_f1 @_g -70;
+    pos @_g1 @_T -150;
+    pos @_k @_T -150;
+    pos @_r @_T -150;
+    pos @_t1 @_T -150;
+    pos @_v @_T -150;
+    pos @_F @_T -70;
+    pos @_L @_T -150;
+    pos @_M @_T -70;
+    pos @_R @_T -70;
+    pos @_T1 @_a -150;
+    pos @_T1 @_s -150;
+    pos @_T1 @_c -150;
+    pos @_T1 @_A -70;
+    pos @_T1 @_y -150;
+    pos @_T1 @_S -70;
+    pos @_T1 @_C -70;
+    pos @_T1 @_d -150;
+    pos @_T1 @_f -50;
+    pos @_T1 @_g -150;
+    pos @_T1 @_t -150;
+  lookupflag 0;
+  } KERN_LTR;
+
+  lookup KERN_LTR;
+} kern;
+markClass [acutecomb] <anchor 112 465> @MARK_top;
+
+feature mark {
+    pos base [J] <anchor 300 675> mark @MARK_top;
+    pos base [j] <anchor 150 475> mark @MARK_top;
+} mark;

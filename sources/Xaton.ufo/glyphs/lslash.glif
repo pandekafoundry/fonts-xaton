@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lslash" format="2">
+  <advance width="295"/>
+  <unicode hex="0142"/>
+  <outline>
+    <contour>
+      <point x="15" y="230" type="line"/>
+      <point x="15" y="0" type="line"/>
+      <point x="280" y="0" type="line"/>
+      <point x="280" y="230" type="line"/>
+      <point x="307" y="230" type="line"/>
+      <point x="307" y="270" type="line"/>
+      <point x="280" y="270" type="line"/>
+      <point x="280" y="730" type="line"/>
+      <point x="15" y="730" type="line"/>
+      <point x="15" y="270" type="line"/>
+      <point x="-13" y="270" type="line"/>
+      <point x="-13" y="230" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>l+endash</string>
+  </dict>
+  </lib>
+</glyph>

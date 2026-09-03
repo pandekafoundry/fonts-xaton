@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb" format="2">
+  <advance width="279"/>
+  <unicode hex="0303"/>
+  <anchor x="140" y="465" name="_top"/>
+  <outline>
+    <component base="tilde" xOffset="0.5911"/>
+  </outline>
+  <guideline angle="0" x="0" y="1412"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>tilde%</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

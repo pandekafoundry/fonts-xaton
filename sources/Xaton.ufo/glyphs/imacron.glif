@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron" format="2">
+  <advance width="295"/>
+  <unicode hex="012B"/>
+  <outline>
+    <contour>
+      <point x="15" y="0" type="line"/>
+      <point x="280" y="0" type="line"/>
+      <point x="280" y="500" type="line"/>
+      <point x="15" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="7.5" y="550" type="line"/>
+      <point x="287.5" y="550" type="line"/>
+      <point x="287.5" y="590" type="line"/>
+      <point x="7.5" y="590" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dotlessi+macron</string>
+  </dict>
+  </lib>
+</glyph>

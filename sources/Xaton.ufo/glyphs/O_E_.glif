@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="OE" format="2">
+  <advance width="905"/>
+  <unicode hex="0152"/>
+  <outline>
+    <contour>
+      <point x="15" y="135" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="755" y="0" type="line"/>
+      <point x="890" y="135" type="line"/>
+      <point x="890" y="290" type="line"/>
+      <point x="625" y="290" type="line"/>
+      <point x="625" y="40" type="line"/>
+      <point x="585" y="40" type="line"/>
+      <point x="585" y="330" type="line"/>
+      <point x="585" y="330" type="line"/>
+      <point x="889" y="330" type="line"/>
+      <point x="889" y="370" type="line"/>
+      <point x="585" y="370" type="line"/>
+      <point x="585" y="370" type="line"/>
+      <point x="585" y="660" type="line"/>
+      <point x="625" y="660" type="line"/>
+      <point x="625" y="410" type="line"/>
+      <point x="890" y="410" type="line"/>
+      <point x="890" y="565" type="line"/>
+      <point x="755" y="700" type="line"/>
+      <point x="150" y="700" type="line"/>
+      <point x="15" y="565" type="line"/>
+    </contour>
+    <contour>
+      <point x="280" y="40" type="line"/>
+      <point x="280" y="660" type="line"/>
+      <point x="320" y="660" type="line"/>
+      <point x="320" y="40" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>O_E</string>
+  </dict>
+  </lib>
+</glyph>

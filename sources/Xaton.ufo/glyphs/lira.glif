@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lira" format="2">
+  <advance width="600"/>
+  <unicode hex="20A4"/>
+  <outline>
+    <contour>
+      <point x="15" y="700.38" type="line"/>
+      <point x="15" y="500" type="line"/>
+      <point x="-45" y="500" type="line"/>
+      <point x="-45" y="460" type="line"/>
+      <point x="15" y="460" type="line"/>
+      <point x="15" y="0" type="line"/>
+      <point x="585" y="0" type="line"/>
+      <point x="585" y="200" type="line"/>
+      <point x="320" y="200" type="line"/>
+      <point x="320" y="40" type="line"/>
+      <point x="280" y="40" type="line"/>
+      <point x="280" y="460" type="line"/>
+      <point x="350" y="460" type="line"/>
+      <point x="350" y="500" type="line"/>
+      <point x="280" y="500" type="line"/>
+      <point x="280" y="700.38" type="line"/>
+    </contour>
+    <contour>
+      <point x="-45" y="370" type="line"/>
+      <point x="350" y="370" type="line"/>
+      <point x="350" y="410" type="line"/>
+      <point x="-45" y="410" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>sterling+hyphen%</string>
+  </dict>
+  </lib>
+</glyph>

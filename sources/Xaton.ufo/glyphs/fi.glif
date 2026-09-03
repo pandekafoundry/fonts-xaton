@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi" format="2">
+  <advance width="600"/>
+  <unicode hex="FB01"/>
+  <outline>
+    <contour>
+      <point x="280" y="0" type="line"/>
+      <point x="280" y="460" type="line"/>
+      <point x="320" y="460" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="585" y="0" type="line"/>
+      <point x="585" y="500" type="line"/>
+      <point x="280" y="500" type="line"/>
+      <point x="280" y="690" type="line"/>
+      <point x="320" y="690" type="line"/>
+      <point x="320" y="540" type="line"/>
+      <point x="585" y="540" type="line"/>
+      <point x="585" y="730" type="line"/>
+      <point x="150" y="730" type="line"/>
+      <point x="15" y="595" type="line"/>
+      <point x="15" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>f_i</string>
+  </dict>
+  </lib>
+</glyph>

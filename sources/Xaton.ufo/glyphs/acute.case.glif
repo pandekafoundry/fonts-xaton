@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.case" format="2">
+  <advance width="224"/>
+  <outline>
+    <contour>
+      <point x="15.9371" y="540" type="line"/>
+      <point x="110.937" y="540" type="line"/>
+      <point x="208.937" y="700" type="line"/>
+      <point x="110.937" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+^acute%</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+  <advance width="625"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <contour>
+      <point x="610" y="565" type="line"/>
+      <point x="475" y="700" type="line"/>
+      <point x="40" y="700" type="line"/>
+      <point x="40" y="370" type="line"/>
+      <point x="15" y="370" type="line"/>
+      <point x="15" y="330" type="line"/>
+      <point x="40" y="330" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="475" y="0" type="line"/>
+      <point x="610" y="135" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="40" type="line"/>
+      <point x="305" y="660" type="line"/>
+      <point x="345" y="660" type="line"/>
+      <point x="345" y="40" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>D+&lt;50~50hyphen%</string>
+  </dict>
+  </lib>
+</glyph>

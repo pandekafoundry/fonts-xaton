@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threequarters" format="2">
+  <advance width="866"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <contour>
+      <point x="15" y="513" type="line"/>
+      <point x="15" y="491" type="line"/>
+      <point x="188" y="491" type="line"/>
+      <point x="188" y="327" type="line"/>
+      <point x="165" y="327" type="line"/>
+      <point x="165" y="468" type="line"/>
+      <point x="15" y="468" type="line"/>
+      <point x="15" y="380" type="line"/>
+      <point x="92" y="304" type="line"/>
+      <point x="261" y="304" type="line"/>
+      <point x="338" y="380" type="line"/>
+      <point x="338" y="437" type="line"/>
+      <point x="273" y="502" type="line"/>
+      <point x="338" y="567" type="line"/>
+      <point x="338" y="624" type="line"/>
+      <point x="261" y="700" type="line"/>
+      <point x="92" y="700" type="line"/>
+      <point x="15" y="624" type="line"/>
+      <point x="15" y="536" type="line"/>
+      <point x="165" y="536" type="line"/>
+      <point x="165" y="677" type="line"/>
+      <point x="188" y="677" type="line"/>
+      <point x="188" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="418" y="0" type="line"/>
+      <point x="528" y="700" type="line"/>
+      <point x="448" y="700" type="line"/>
+      <point x="338" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="701" y="0" type="line"/>
+      <point x="851" y="0" type="line"/>
+      <point x="851" y="396" type="line"/>
+      <point x="701" y="396" type="line"/>
+      <point x="701" y="209" type="line"/>
+      <point x="678" y="209" type="line"/>
+      <point x="678" y="396" type="line"/>
+      <point x="528" y="396" type="line"/>
+      <point x="528" y="187" type="line"/>
+      <point x="701" y="187" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>three_slash_four</string>
+  </dict>
+  </lib>
+</glyph>

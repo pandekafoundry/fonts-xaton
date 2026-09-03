@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sterling" format="2">
+  <advance width="660"/>
+  <unicode hex="00A3"/>
+  <outline>
+    <contour>
+      <point x="75" y="0" type="line"/>
+      <point x="645" y="0" type="line"/>
+      <point x="645" y="200" type="line"/>
+      <point x="380" y="200" type="line"/>
+      <point x="380" y="40" type="line"/>
+      <point x="340" y="40" type="line"/>
+      <point x="340" y="460" type="line"/>
+      <point x="584" y="460" type="line"/>
+      <point x="584" y="500" type="line"/>
+      <point x="340" y="500" type="line"/>
+      <point x="340" y="690" type="line"/>
+      <point x="380" y="690" type="line"/>
+      <point x="380" y="540" type="line"/>
+      <point x="645" y="540" type="line"/>
+      <point x="645" y="730" type="line"/>
+      <point x="210" y="730" type="line"/>
+      <point x="75" y="595" type="line"/>
+      <point x="75" y="500" type="line"/>
+      <point x="15" y="500" type="line"/>
+      <point x="15" y="460" type="line"/>
+      <point x="75" y="460" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>L+^hyphen%</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="utilde" format="2">
+  <advance width="600"/>
+  <unicode hex="0169"/>
+  <outline>
+    <component base="u"/>
+    <component base="tilde" xOffset="168.151" yOffset="9.68007"/>
+  </outline>
+  <guideline angle="0" x="0" y="1412"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>u+tilde</string>
+  </dict>
+  </lib>
+</glyph>

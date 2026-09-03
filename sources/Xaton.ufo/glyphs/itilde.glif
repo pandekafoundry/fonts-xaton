@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="itilde" format="2">
+  <advance width="295"/>
+  <unicode hex="0129"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="tilde" xOffset="15.6508" yOffset="10"/>
+  </outline>
+  <guideline angle="0" x="0" y="1412"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dotlessi+tilde</string>
+  </dict>
+  </lib>
+</glyph>

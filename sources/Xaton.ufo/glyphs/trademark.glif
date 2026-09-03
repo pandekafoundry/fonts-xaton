@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="2">
+  <advance width="876"/>
+  <unicode hex="2122"/>
+  <outline>
+    <contour>
+      <point x="443" y="700" type="line"/>
+      <point x="366" y="624" type="line"/>
+      <point x="366" y="304" type="line"/>
+      <point x="516" y="304" type="line"/>
+      <point x="516" y="677" type="line"/>
+      <point x="539" y="677" type="line"/>
+      <point x="539" y="304" type="line"/>
+      <point x="689" y="304" type="line"/>
+      <point x="689" y="677" type="line"/>
+      <point x="711" y="677" type="line"/>
+      <point x="711" y="304" type="line"/>
+      <point x="861" y="304" type="line"/>
+      <point x="861" y="624" type="line"/>
+      <point x="785" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="15" y="700" type="line"/>
+      <point x="15" y="677" type="line"/>
+      <point x="102" y="677" type="line"/>
+      <point x="102" y="304" type="line"/>
+      <point x="252" y="304" type="line"/>
+      <point x="252" y="677" type="line"/>
+      <point x="338" y="677" type="line"/>
+      <point x="338" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>T_M%</string>
+  </dict>
+  </lib>
+</glyph>

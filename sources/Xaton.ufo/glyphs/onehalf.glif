@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onehalf" format="2">
+  <advance width="864"/>
+  <unicode hex="00BD"/>
+  <outline>
+    <contour>
+      <point x="849" y="320" type="line"/>
+      <point x="772" y="396" type="line"/>
+      <point x="602" y="396" type="line"/>
+      <point x="526" y="320" type="line"/>
+      <point x="526" y="232" type="line"/>
+      <point x="676" y="232" type="line"/>
+      <point x="676" y="373" type="line"/>
+      <point x="699" y="373" type="line"/>
+      <point x="699" y="209" type="line"/>
+      <point x="526" y="209" type="line"/>
+      <point x="526" y="0" type="line"/>
+      <point x="849" y="0" type="line"/>
+      <point x="849" y="164" type="line"/>
+      <point x="699" y="164" type="line"/>
+      <point x="699" y="23" type="line"/>
+      <point x="676" y="23" type="line"/>
+      <point x="676" y="187" type="line"/>
+      <point x="849" y="187" type="line"/>
+    </contour>
+    <contour>
+      <point x="188" y="304" type="line"/>
+      <point x="338" y="304" type="line"/>
+      <point x="338" y="700" type="line"/>
+      <point x="15" y="700" type="line"/>
+      <point x="15" y="587" type="line"/>
+      <point x="165" y="587" type="line"/>
+      <point x="165" y="677" type="line"/>
+      <point x="188" y="677" type="line"/>
+    </contour>
+    <contour>
+      <point x="417" y="0" type="line"/>
+      <point x="527" y="700" type="line"/>
+      <point x="447" y="700" type="line"/>
+      <point x="337" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>one_slash_two</string>
+  </dict>
+  </lib>
+</glyph>
